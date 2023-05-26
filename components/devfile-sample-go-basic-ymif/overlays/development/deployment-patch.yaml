@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-go-basic-ymif
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/mreid1-tenant/my-app/devfile-sample-go-basic-ymif@sha256:568a0fc80d9888ebaa14789b6791825b6d9d44a4dc85044602141e3127a5ce16
+        name: my-go
+        resources: {}
+status: {}
