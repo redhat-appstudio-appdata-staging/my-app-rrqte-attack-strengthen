@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-go-basic-ymif
     app.kubernetes.io/part-of: my-app
-  name: devfile-sample-go-basic-yob60
+  name: devfile-sample-go-basic-ysyqn
 spec:
   path: /
   port:
