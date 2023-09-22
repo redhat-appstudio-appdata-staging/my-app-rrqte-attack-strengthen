@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-go-basic-ymif
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/mreid1-tenant/my-app/devfile-sample-go-basic-ymif@sha256:568a0fc80d9888ebaa14789b6791825b6d9d44a4dc85044602141e3127a5ce16
+      - image: quay.io/redhat-user-workloads-stage/mreid1-tenant/my-app/devfile-sample-go-basic-ymif@sha256:2dab7bc13fff402bf42b8d302707a34e3e0bc56f29b1ea47746b4acbc01e9859
         name: my-go
         ports:
         - containerPort: 8081
